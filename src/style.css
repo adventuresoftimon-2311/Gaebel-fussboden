@@ -130,7 +130,8 @@ img {
 
 /* Header */
 header {
-  background-color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px); /* Optional: Adds a glassmorphism blur effect for better readability */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
