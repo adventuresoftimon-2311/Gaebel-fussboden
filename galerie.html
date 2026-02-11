@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bildergalerie - Fußbodentechnik Gäbel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-md);
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="/images/logo.png" alt="Fußbodentechnik Gäbel Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ueber-uns.html">Über uns</a></li>
+                    <li><a href="/galerie.html" class="active">Galerie</a></li>
+                    <li><a href="/kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero-section hero-section--subpage">
+            <div class="container">
+                <h1>Bildergalerie</h1>
+                <p style="max-width: 700px; margin: 0 auto; font-size: 1.125rem;">Bilder sagen mehr als Versprechen:
+                    Hier sehen Sie eine Auswahl unserer Arbeiten — von der Neuverlegung
+                    bis zur Sanierung, inklusive Details und Übergängen.</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm);">
+            <div style="margin-top: var(--spacing-lg);">
+                <h3
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                    Umbau & Renovierung</h3>
+                <p style="margin-bottom: var(--spacing-md); color: var(--color-text-muted);">Vorher/Nachher-Eindruck und
+                    Materialwechsel</p>
+
+                <div class="gallery-grid">
+                    <!-- Image 1 -->
+                    <div class="gallery-item">
+                        <img src="/images/gallery-1.png" alt="Referenz: Parkett">
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="gallery-item">
+                        <img src="/images/gallery-2.png" alt="Referenz: Vinyl">
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="gallery-item">
+                        <img src="/images/gallery-3.png" alt="Referenz: Treppe">
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1620626330541-69e1c07cc1b0?auto=format&fit=crop&w=600&h=400&q=80"
+                            alt="Referenz 4">
+                    </div>
+                    <!-- Image 5 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1594246824985-05d66c30368c?auto=format&fit=crop&w=600&h=400&q=80"
+                            alt="Referenz 5">
+                    </div>
+                    <!-- Image 6 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1588722744729-ea3c7aa88536?auto=format&fit=crop&w=600&h=400&q=80"
+                            alt="Referenz 6">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Fußbodentechnik Gäbel</h4>
+                <p>Schanzstr. 19<br>84478 Waldkraiburg</p>
+                <br>
+                <p>Sie planen einen neuen Boden oder eine Sanierung? Wir beraten Sie ehrlich, praxisnah und passend zu
+                    Ihrem Zuhause.</p>
+            </div>
+            <div>
+                <h4>Kontakt</h4>
+                <ul>
+                    <li>Tel: <a href="tel:+4917684258090">+49 176 / 842 580 90</a></li>
+                    <li>Tel: <a href="tel:+4917684258092">+49 176 / 842 580 92</a></li>
+                    <li>Email: <a
+                            href="mailto:fussbodentechnik-gaebel@t-online.de">fussbodentechnik-gaebel@t-online.de</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="/impressum.html">Impressum</a></li>
+                    <li><a href="/datenschutz.html">Datenschutz</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-row">
+            &copy; 2024 Fußbodentechnik Gäbel. Alle Rechte vorbehalten.
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

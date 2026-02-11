@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Fußbodentechnik Gäbel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="/images/logo.png" alt="Fußbodentechnik Gäbel Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ueber-uns.html">Über uns</a></li>
+                    <li><a href="/galerie.html">Galerie</a></li>
+                    <li><a href="/kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero-section hero-section--subpage">
+            <div class="container">
+                <h1>Ihr Kontakt zu uns</h1>
+                <p style="max-width: 700px; margin: 0 auto; font-size: 1.125rem;">Sagen Sie uns kurz, was Sie vorhaben —
+                    wir melden uns zeitnah zurück und klären gemeinsam die nächsten Schritte.</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm);">
+            <div
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-lg); margin-top: var(--spacing-md);">
+
+                <!-- Contact Info -->
+                <div>
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h3>Hier finden Sie uns:</h3>
+                        <p><strong>Fußbodentechnik Gäbel</strong><br>
+                            Schanzstr. 19<br>
+                            84 478 Waldkraiburg, Germany</p>
+                        <p style="margin-top: 1rem;">
+                            <a href="tel:+4917684258090">+49 176 / 842 580 90</a><br>
+                            <a href="tel:+4917684258092">+49 176 / 842 580 92</a>
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <!-- Google Maps Embed -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.887964433284!2d12.39578!3d48.22815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477610427306231d%3A0x70d85915720c740!2sSchanzstra%C3%9Fe%2019%2C%2084478%20Waldkraiburg!5e0!3m2!1sde!2sde!4v1707660000000!5m2!1sde!2sde"
+                            width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h3>Telefonische Erreichbarkeit:</h3>
+                        <p>Mo–Fr: 08:00–16:00 Uhr<br>
+                            <small>Wenn wir gerade auf der Baustelle sind, rufen wir zuverlässig zurück.</small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div
+                    style="background: white; padding: var(--spacing-md); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                    <h3>Ihre Nachricht an uns:</h3>
+                    <p style="margin-bottom: 1rem; color: var(--color-text-muted);">Je genauer die Infos, desto
+                        passender unser Vorschlag.</p>
+
+                    <form action="#" method="POST" style="display: grid; gap: 1rem;">
+                        <div>
+                            <label for="name"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Name</label>
+                            <input type="text" id="name" name="name" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="email"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">E-Mail-Adresse</label>
+                            <input type="email" id="email" name="email" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="phone"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Telefon</label>
+                            <input type="tel" id="phone" name="phone"
+                                style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="message"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Nachricht</label>
+                            <textarea id="message" name="message" rows="5" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Fußbodentechnik Gäbel</h4>
+                <p>Schanzstr. 19<br>84478 Waldkraiburg</p>
+                <br>
+                <p>Sie planen einen neuen Boden oder eine Sanierung? Wir beraten Sie ehrlich, praxisnah und passend zu
+                    Ihrem Zuhause.</p>
+            </div>
+            <div>
+                <h4>Kontakt</h4>
+                <ul>
+                    <li>Tel: <a href="tel:+4917684258090">+49 176 / 842 580 90</a></li>
+                    <li>Tel: <a href="tel:+4917684258092">+49 176 / 842 580 92</a></li>
+                    <li>Email: <a
+                            href="mailto:fussbodentechnik-gaebel@t-online.de">fussbodentechnik-gaebel@t-online.de</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="/impressum.html">Impressum</a></li>
+                    <li><a href="/datenschutz.html">Datenschutz</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-row">
+            &copy; 2024 Fußbodentechnik Gäbel. Alle Rechte vorbehalten.
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
