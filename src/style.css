@@ -131,7 +131,8 @@ img {
 /* Header */
 header {
   background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px); /* Optional: Adds a glassmorphism blur effect for better readability */
+  backdrop-filter: blur(10px);
+  /* Optional: Adds a glassmorphism blur effect for better readability */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
@@ -143,9 +144,11 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  min-height: 120px;
   /* Initial larger height */
-  transition: height 0.3s ease;
+  transition: min-height 0.3s ease, height 0.3s ease;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Scrolled Header State */
@@ -154,7 +157,7 @@ header.scrolled {
 }
 
 header.scrolled .container {
-  height: 70px;
+  min-height: 70px;
   /* Reduced height on scroll */
 }
 
@@ -299,6 +302,47 @@ footer a:hover {
   /* Subtle white glow */
 }
 
+/* Generic Utilities */
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+/* Teaser Grid Utilities */
+.teaser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg) var(--spacing-sm);
+}
+
+.teaser-card {
+  background: white;
+  padding: var(--spacing-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.teaser-card h3 {
+  margin-bottom: 1rem;
+}
+
+.teaser-card p {
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+/* Service Grid adjustments already use auto-fit, but let's ensure consistency */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   h1 {
@@ -315,13 +359,13 @@ footer a:hover {
 
   /* Header adjustments */
   header .container {
-    height: 70px;
+    min-height: 70px;
     /* Smaller header on mobile */
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
   }
 
   header.scrolled .container {
-    height: 60px;
+    min-height: 60px;
   }
 
   .logo img {
@@ -415,11 +459,6 @@ footer a:hover {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  section[style*="grid-template-columns"] {
-    grid-template-columns: 1fr !important;
-    /* Stack grids */
   }
 }
 
