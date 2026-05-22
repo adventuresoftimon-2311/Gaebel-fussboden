@@ -498,9 +498,30 @@ footer a:hover {
 }
 
 /* Timeline */
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 2.5rem;
+  position: relative;
+}
+
 .timeline-item {
   margin-bottom: 3rem;
   position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.125rem; /* Aligns with the center of the 1.25rem dot at left -2.7rem */
+  top: 1.5rem;     /* Starts below the center of the current dot */
+  bottom: -2.25rem; /* Reaches the top of the next dot */
+  width: 2px;
+  background-color: var(--color-accent);
+}
+
+.timeline-item:last-child::before {
+  display: none; /* No line segment below the last item */
 }
 
 .timeline-dot {
