@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Über uns - Fußbodentechnik Gäbel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
+    <title>Über Uns - Meisterbetrieb Fußbodentechnik Gäbel</title>
+    <meta name="description" content="Lernen Sie unseren Meisterbetrieb in Waldkraiburg kennen. Erfahren Sie mehr über unsere Werte, unsere Firmengeschichte und unser eingespieltes Handwerker-Team." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css">
 </head>
 
@@ -15,7 +17,7 @@
     <header>
         <div class="container">
             <a href="/" class="logo">
-                <img src="/images/logo.png" alt="Fußbodentechnik Gäbel Logo">
+                <img src="/images/logo.png" alt="Fußbodentechnik Gäbel - Fachbetrieb für Fußbodentechnik und Parkettverlegung in Waldkraiburg">
             </a>
             <div class="menu-toggle">
                 <span></span>
@@ -46,88 +48,70 @@
         </section>
 
         <!-- Das sind wir -->
-        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm);">
-            <div class="grid-2-col">
-                <div>
-                    <h3>Das sind wir: Handwerk mit Anspruch</h3>
-                    <p>Wir mögen Lösungen, die lange halten: sauberer Untergrundaufbau, präzise Schnitte, stimmige
-                        Übergänge und ein Finish, das auch nach Jahren noch überzeugt. Dabei erklären wir transparent,
-                        was sinnvoll ist — und was nicht.</p>
-                    <br>
-                    <h3>Ein eingespieltes Team</h3>
-                    <p>Wir arbeiten als Familienbetrieb mit klarer Abstimmung und kurzen Wegen. Bei Bedarf ergänzen wir
-                        uns durch bewährte Partner — damit Termine, Qualität und Ergebnis stimmen.</p>
-                </div>
-                <div>
-                    <img src="/images/team.png" alt="Team bei der Arbeit"
-                        style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                </div>
+        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm); max-width: 800px; text-align: center;">
+            <div>
+                <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem;">Das sind wir: Handwerk mit Anspruch</h3>
+                <p style="font-size: 1.125rem; line-height: 1.9; color: var(--color-text-main);">Wir mögen Lösungen, die lange halten: sauberer Untergrundaufbau, präzise Schnitte, stimmige
+                    Übergänge und ein Finish, das auch nach Jahren noch überzeugt. Dabei erklären wir stets transparent,
+                    was für Ihre Räume am besten geeignet ist.</p>
+                <br><br>
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Ein eingespieltes Team</h3>
+                <p style="font-size: 1.125rem; line-height: 1.9; color: var(--color-text-main);">Wir arbeiten als Familienbetrieb mit klarer Abstimmung und kurzen Wegen. Bei Bedarf ergänzen wir
+                    uns durch bewährte Partner — damit Termine, Qualität und Ergebnis stimmen.</p>
             </div>
         </section>
 
         <!-- Timeline -->
-        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm);">
+        <section class="container" style="padding: var(--spacing-lg) var(--spacing-sm); border-top: 1px solid rgba(197,160,101,0.08);">
             <h2 style="text-align: center; margin-bottom: var(--spacing-md);">Unsere Geschichte</h2>
 
             <div class="timeline"
-                style="max-width: 800px; margin: 0 auto; border-left: 2px solid var(--color-accent); padding-left: 2rem;">
-                <div style="margin-bottom: 2rem; position: relative;">
-                    <span
-                        style="position: absolute; left: -2.6rem; top: 0; width: 1.2rem; height: 1.2rem; background: var(--color-accent); border-radius: 50%;"></span>
-                    <span style="font-weight: 700; color: var(--color-accent);">Heute</span>
-                    <h3>Breites Bodenspektrum</h3>
+                style="max-width: 800px; margin: 0 auto; border-left: 2px solid var(--color-accent); padding-left: 2.5rem;">
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <span style="font-weight: 700; color: var(--color-accent); display: block; margin-bottom: 0.25rem;">Heute</span>
+                    <h3 style="font-size: 1.5rem;">Breites Bodenspektrum</h3>
                     <p>Parkett, Vinyl/Designbeläge, PVC/Linoleum, Teppich, Kork und Treppenbelegung — passend zum Raum
                         und zur Nutzung.</p>
                 </div>
-                <div style="margin-bottom: 2rem; position: relative;">
-                    <span
-                        style="position: absolute; left: -2.6rem; top: 0; width: 1.2rem; height: 1.2rem; background: var(--color-secondary); border: 2px solid var(--color-accent); border-radius: 50%;"></span>
-                    <span style="font-weight: 700; color: var(--color-text-muted);">Entwicklung</span>
-                    <h3>Spezialisierung & Sanierung</h3>
+                <div class="timeline-item">
+                    <span class="timeline-dot muted"></span>
+                    <span style="font-weight: 700; color: var(--color-text-muted); display: block; margin-bottom: 0.25rem;">Entwicklung</span>
+                    <h3 style="font-size: 1.5rem;">Spezialisierung & Sanierung</h3>
                     <p>Mehr Erfahrung in Neuverlegung und Aufbereitung — besonders bei Parkett.</p>
                 </div>
-                <div style="margin-bottom: 2rem; position: relative;">
-                    <span
-                        style="position: absolute; left: -2.6rem; top: 0; width: 1.2rem; height: 1.2rem; background: var(--color-secondary); border: 2px solid var(--color-accent); border-radius: 50%;"></span>
-                    <span style="font-weight: 700; color: var(--color-text-muted);">Start</span>
-                    <h3>Gründung & erste Projekte</h3>
+                <div class="timeline-item" style="margin-bottom: 0;">
+                    <span class="timeline-dot muted"></span>
+                    <span style="font-weight: 700; color: var(--color-text-muted); display: block; margin-bottom: 0.25rem;">Start</span>
+                    <h3 style="font-size: 1.5rem;">Gründung & erste Projekte</h3>
                     <p>Aufbau des Betriebs, Fokus auf zuverlässige Ausführung und saubere Details.</p>
                 </div>
             </div>
         </section>
 
         <!-- Team -->
-        <section style="background-color: var(--color-secondary); padding: var(--spacing-lg) 0;">
+        <section style="background-color: var(--color-secondary); padding: var(--spacing-lg) 0; border-top: 1px solid rgba(197,160,101,0.08); border-bottom: 1px solid rgba(197,160,101,0.08);">
             <div class="container">
-                <h2 style="text-align: center; margin-bottom: var(--spacing-md);">Unser Team</h2>
-                <div
-                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-md); text-align: center;">
+                <h2 style="text-align: center; margin-bottom: 1rem;">Ansprechpartner & Team</h2>
+                <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem; color: var(--color-text-muted);">Erfahren und meisterlich geleitet: Das sind die Fachkräfte hinter Fußbodentechnik Gäbel.</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-md);">
                     <!-- Member 1 -->
-                    <div style="background: white; padding: var(--spacing-md); border-radius: 8px;">
-                        <div
-                            style="width: 100px; height: 100px; background-color: #eee; border-radius: 50%; margin: 0 auto 1rem; overflow: hidden;">
-                            <img src="/images/marcel_gaebel.png" alt="Marcel Gäbel">
-                        </div>
-                        <h4>Marcel Gäbel</h4>
-                        <p>Geschäftsführung</p>
+                    <div class="team-card">
+                        <span style="display: inline-block; font-size: 0.8rem; text-transform: uppercase; color: var(--color-accent); font-weight: 700; margin-bottom: 0.5rem; letter-spacing: 1px;">Geschäftsführung</span>
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: var(--color-primary);">Marcel Gäbel</h3>
+                        <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;">Ihr Ansprechpartner für Beratung, individuelle Angebote und die gesamte Projektplanung.</p>
                     </div>
                     <!-- Member 2 -->
-                    <div style="background: white; padding: var(--spacing-md); border-radius: 8px;">
-                        <div
-                            style="width: 100px; height: 100px; background-color: #eee; border-radius: 50%; margin: 0 auto 1rem; overflow: hidden;">
-                            <img src="/images/team_member_2.png" alt="Thomas Weber">
-                        </div>
-                        <h4>Thomas Weber</h4>
-                        <p>Parkettlegermeister</p>
+                    <div class="team-card">
+                        <span style="display: inline-block; font-size: 0.8rem; text-transform: uppercase; color: var(--color-accent); font-weight: 700; margin-bottom: 0.5rem; letter-spacing: 1px;">Parkettlegermeister</span>
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: var(--color-primary);">Thomas Weber</h3>
+                        <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;">Unser Spezialist für Massivholz, professionelle Schleifarbeiten und anspruchsvolle Parkettverlegungen.</p>
                     </div>
                     <!-- Member 3 -->
-                    <div style="background: white; padding: var(--spacing-md); border-radius: 8px;">
-                        <div
-                            style="width: 100px; height: 100px; background-color: #eee; border-radius: 50%; margin: 0 auto 1rem; overflow: hidden;">
-                            <img src="/images/team_member_3.png" alt="Andreas Schmidt">
-                        </div>
-                        <h4>Andreas Schmidt</h4>
-                        <p>Bodenleger</p>
+                    <div class="team-card">
+                        <span style="display: inline-block; font-size: 0.8rem; text-transform: uppercase; color: var(--color-accent); font-weight: 700; margin-bottom: 0.5rem; letter-spacing: 1px;">Bodenleger</span>
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem; color: var(--color-primary);">Andreas Schmidt</h3>
+                        <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;">Experte für moderne Design- und Vinylbeläge, PVC, Linoleum sowie passgenaue Treppenbelegungen.</p>
                     </div>
                 </div>
             </div>
