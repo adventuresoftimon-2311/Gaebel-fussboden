@@ -987,3 +987,49 @@ textarea.form-control {
   font-size: 1.25rem;
   line-height: 1;
 }
+
+/* Gallery Filter Bar */
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  padding: 0.7rem 1.4rem;
+  border-radius: 50px;
+  border: 1px solid rgba(26, 18, 11, 0.12);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+}
+
+.filter-btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-accent);
+  color: var(--color-accent-hover);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+}
+
+/* Filter grid display animation */
+.gallery-item {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.gallery-item.hidden {
+  display: none !important;
+}
