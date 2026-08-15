@@ -140,60 +140,60 @@ if (galleryContainer) {
         "alt": "Professionelle Treppensanierung mit maßgefertigten Trittstufen und Setzstufen für eine moderne und sichere Aufwertung des Treppenhauses"
       },
       "IMG_0010.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Exklusive Badezimmergestaltung mit großformatigen Fliesen, fugenloser Duschrückwand und rutschfesten Bodenfliesen im modernen Design"
+        "category": "vorbereitung",
+        "alt": "Professionelles Abschleifen eines alten Fischgrätparketts im Wohnzimmer mit einer Tellerschleifmaschine und angeschlossenem Industriestaubsauger"
       },
       "IMG_0011.jpg": {
         "category": "vorbereitung",
-        "alt": "Fachmännische Untergrundvorbereitung durch Schleifen, Grundieren und vollflächiges Spachteln als perfekte Basis für den neuen Bodenbelag"
+        "alt": "Bodenrenovierung im Altbau mit einer Schleifmaschine auf Eichen-Fischgrätparkett, das den Kontrast zwischen geschliffener und ungeschliffener Fläche zeigt"
       },
       "IMG_0013.jpg": {
         "category": "parkett",
-        "alt": "Wunderschön versiegeltes Echtholzparkett in warmen Tönen für eine natürliche und elegante Raumgestaltung"
+        "alt": "Fertig verlegtes und matt versiegeltes Eichen-Fischgrätparkett in einem leeren, lichtdurchfluteten Altbauzimmer mit Heizkörper"
       },
       "IMG_0014.jpg": {
-        "category": "vinyl",
-        "alt": "Hochwertiger Vinylbodenbelag in detailreicher Steinoptik mit widerstandsfähiger Nutzschicht für stark frequentierte Bereiche"
+        "category": "parkett",
+        "alt": "Heller Altbauraum mit meisterhaft verlegtem Eichenparkett im klassischen Fischgrätmuster and weißen Fußleisten"
       },
       "IMG_0015.jpg": {
-        "category": "treppen",
-        "alt": "Sanierte Massivholztreppe mit rutschhemmender Versiegelung, die sich ideal in das moderne Raumkonzept einfügt"
+        "category": "vorbereitung",
+        "alt": "Auftragen von Parkettöl auf einen frisch verlegten Fischgrät-Eichenboden, sichtbar durch den glänzenden Kontrast auf dem Holz"
       },
       "IMG_0016.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Badezimmerfliesen in Betonoptik für ein urbanes, minimalistisches Design mit pflegeleichten Oberflächen"
+        "category": "parkett",
+        "alt": "Frisch versiegeltes Eichen-Fischgrätparkett mit starker Glanzreflexion im leeren Wohnraum nach der Fertigstellung"
       },
       "IMG_0017.jpg": {
-        "category": "vorbereitung",
-        "alt": "Bodenleger beim fachgerechten Auftragen einer hochfesten Nivelliermasse zur Schaffung einer ebenen Verlegefläche"
+        "category": "parkett",
+        "alt": "Präzise verlegtes Eichen-Fischgrätparkett in einem Raum mit Stuckdecke und großen Fenstern, glänzend frisch versiegelt"
       },
       "IMG_0760.jpg": {
         "category": "parkett",
         "alt": "Stilvoller Parkettboden mit gebürsteter Oberfläche für eine spürbare Holzstruktur und ein angenehmes Laufgefühl"
       },
       "IMG_0761.jpg": {
-        "category": "vinyl",
-        "alt": "Robuster Vinyl-Designboden im Klickformat verlegt, ideal für eine schnelle Renovierung mit hochwertiger Optik"
+        "category": "parkett",
+        "alt": "Großer Raum mit einem hochwertigen Holzboden aus Landhausdielen und einem rustikalen Gitter in der Raummitte"
       },
       "IMG_0762.jpg": {
-        "category": "treppen",
-        "alt": "Umfassende Treppenbelegung mit Tritt- und Setzstufen aus kratzfestem Laminat in harmonischer Abstimmung zum Boden"
+        "category": "parkett",
+        "alt": "Blick in einen großen Saal mit robustem Parkettboden und einem arbeitenden Handwerker im Hintergrund"
       },
       "IMG_0763.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Edle Wand- und Bodenfliesen im Badezimmer mit nahtlosem Übergang in die bodengleiche Dusche für maximalen Komfort"
+        "category": "treppen",
+        "alt": "Blick von unten auf eine Holztreppe mit schwarzen Metallstäben und einem hölzernen Handlauf in einem Flur"
       },
       "IMG_0764.jpg": {
-        "category": "vorbereitung",
-        "alt": "Abschleifen des alten Estrichs mit einer professionellen Tellerschleifmaschine zur optimalen Haftung des neuen Belags"
+        "category": "treppen",
+        "alt": "Unterer Teil einer Holztreppe mit integrierter Stufenbeleuchtung und modernem Metallgeländer"
       },
       "IMG_0765.jpg": {
         "category": "parkett",
         "alt": "Klassisches Stäbchenparkett, frisch geölt und poliert, bringt zeitlose Eleganz in jeden Wohnbereich"
       },
       "IMG_0766.jpg": {
-        "category": "vinyl",
-        "alt": "Wasserdichter Vinylboden, ideal verlegt in Feuchträumen, in einer modernen und authentischen Eichenholz-Nachbildung"
+        "category": "parkett",
+        "alt": "Handwerker bei der Endreinigung eines großen Saals mit frisch verlegtem oder aufgearbeitetem Holz-Parkettboden"
       },
       "IMG_0770.jpg": {
         "category": "bad-fliesen",
@@ -216,56 +216,56 @@ if (galleryContainer) {
         "alt": "Nahaufnahme des Duschbereichs mit beigen Marmoroptik-Wandfliesen, integrierter Nische und WC-Spülkasten-Vorwand"
       },
       "a03bb75b-cabd-4f34-a6fa-1a6574043824.jpg": {
-        "category": "treppen",
-        "alt": "Elegante Treppensanierung mit modernen Stufen und einem optisch ansprechenden Geländer für höchste Wohnansprüche"
+        "category": "parkett",
+        "alt": "Weitläufiger Raum mit professionell verlegtem Fischgrätparkett aus Holz und Blick durch eine Glasfront auf den Balkon"
       },
       "a3309d78-9de6-4e45-ab6f-2ebc9355c203.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Großformatige Badfliesen in Anthrazit mit minimaler Fugenbreite für eine moderne, großzügige Raumwirkung"
+        "category": "parkett",
+        "alt": "Ein weiterer Blickwinkel auf das edle Eichen-Fischgrätparkett in einem hellen, großen Raum mit Terrassentüren"
       },
       "a8dd826e-0851-4a18-b71f-60f78ed41e42.jpg": {
-        "category": "vorbereitung",
-        "alt": "Sorgfältige Überprüfung der Untergrundfeuchtigkeit und Ebenheit vor der geplanten Parkettverlegung durch den Profi"
+        "category": "parkett",
+        "alt": "Fischgrätparkett aus Eichenholz in einem frisch renovierten Raum mit sichtbaren Vorarbeiten an den Fenstern"
       },
       "a9d948fb-123a-45ca-87d4-a0ef03310902.jpg": {
-        "category": "parkett",
-        "alt": "Naturgeöltes Massivholzparkett im Schlafzimmer sorgt für ein gesundes Raumklima und eine behagliche Atmosphäre"
+        "category": "treppen",
+        "alt": "Blick hinauf auf eine renovierte Treppe mit Stufen in dunkelgrauer Steinoptik und einem eleganten Metall- und Holzgeländer"
       },
       "bc2723b0-4a8b-4074-a4c9-80305f1b8c21.jpg": {
-        "category": "vinyl",
-        "alt": "Strapazierfähiger Vinylboden in Fliesenoptik, perfekt geeignet für Küchen und hoch frequentierte Flurbereiche"
+        "category": "vorbereitung",
+        "alt": "Bodenleger bei der Vorbereitung eines großen, historischen Saals mit blauer Grundierung oder Schutzschicht auf dem Boden"
       },
       "c5538bea-11c8-4101-b21e-fea685935bfb.jpg": {
-        "category": "treppen",
-        "alt": "Handwerklich perfekte Holztreppe, die Funktionalität und zeitlose Ästhetik im offenen Wohnbereich vereint"
+        "category": "parkett",
+        "alt": "Detailansicht eines meisterhaft verlegten Fischgrätparketts aus Eiche mit einem präzisen und passgenauen Randabschluss"
       },
       "ce4b8249-f15a-40f0-afac-68d16a00dc40.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Verlegung von edlen Fliesen im Badbereich, die durch eine spezielle Oberflächenveredelung besonders rutschfest sind"
+        "category": "vorbereitung",
+        "alt": "Fachkraft nutzt eine Stachelwalze an einer Teleskopstange, um die frisch gegossene Ausgleichsmasse in einem großen Saal zu entlüften"
       },
       "ce5d5aa9-1324-4efc-bd33-5ebc64c39452.jpg": {
-        "category": "vorbereitung",
-        "alt": "Verwendung einer Stachelwalze nach dem Ausgießen der Bodenspachtelmasse, um Lufteinschlüsse zuverlässig zu entfernen"
+        "category": "parkett",
+        "alt": "Frisch verlegtes Fischgrätparkett aus hellem Holz in einem Raum, aufgenommen aus der Vogelperspektive"
       },
       "d33390ff-629f-423d-9f98-0765572ed995.jpg": {
-        "category": "parkett",
-        "alt": "Großzügige Landhausdielen aus Eichenholz mit markanter Maserung, die jedem Raum einen rustikalen Charme verleihen"
+        "category": "vorbereitung",
+        "alt": "Bodenleger gießt mit einem Förderschlauch flüssige Ausgleichsmasse über einen alten Fliesenboden mit blauer Grundierung"
       },
       "d7ce2073-5241-453d-bae7-2da07f37ff93.jpg": {
-        "category": "vinyl",
-        "alt": "Vollflächig verklebter Designboden in edler Holzoptik, der maximale Stabilität und hervorragende Trittschalldämmung bietet"
+        "category": "vorbereitung",
+        "alt": "Abschleifen eines alten Fischgrätparketts mit einer professionellen Fußbodenschleifmaschine, um das Holz aufzuarbeiten"
       },
       "dc9b8182-bd23-411c-b431-444736bdb8fc.jpg": {
-        "category": "treppen",
-        "alt": "Millimetergenaue Einpassung der neuen Treppenstufen bei der Renovierung einer alten Holztreppe durch Fachexperten"
+        "category": "parkett",
+        "alt": "Fertig verlegter Holz-Parkettboden mit Landhausdielen-Charakter in einem hellen, großzügigen Raum mit Erker"
       },
       "f7ef91ad-b547-4486-8c48-f3c9955362b2.jpg": {
-        "category": "bad-fliesen",
-        "alt": "Detail einer bodengleichen Dusche mit eingelassenem Ablaufrinne und exakt zugeschnittenen Bodenfliesen"
+        "category": "vorbereitung",
+        "alt": "Großer Saalboden, der frisch mit Nivelliermasse gegossen wurde, was eine spiegelglatte Oberfläche erzeugt"
       },
       "ff16e5b2-6d80-4ea0-8aad-10e56a1fbf10.jpg": {
-        "category": "vorbereitung",
-        "alt": "Abkleben und Vorbereiten der Wände und Randfugen vor dem großflächigen Gießen der faserarmierten Ausgleichsmasse"
+        "category": "parkett",
+        "alt": "Wohnraum mit durchgehendem Eichen-Fischgrätparkett und Blick auf bodentiefe Fenster und einen Balkon"
       }
     };
 
